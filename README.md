@@ -1,44 +1,71 @@
-# Will you be my valentine?
+# Will You Be My Valentine? 💌
 
-**Valentine Page Creator**: https://i143.xyz/create
+This project is designed to be an interactive webpage to ask someone to be your Valentine. Please use this code as inspiration and avoid simply copying it without understanding or giving credit.
 
+---
+## **🚀 Respect Open-Source**
+I built this for **fun & learning**. If you fork or modify it:  
+✔ **Use it for creativity, personal projects, or learning**  
+✔ **Give proper credit when using it in public**  
+✔ **Respect the original creator’s work**  
+❌ **DO NOT try to profit from free content**  
 
-## Custom Templates
-Click on the template of your choice, and create your valentine pages under 1 minute. : https://i143.xyz/templates
-
-- **100% Free**. 🆓
-- Easy to Use. **No Codeing** required. 🎉
-- With **custom subdomain** of your choice (Obviously not claimed by anyone else). 🌍
-- With **custom texts** of your choice. 💬
-- With **custom images** of your choice. 👩‍❤️‍👨
-- With **40 Beautiful** templates to start from. 🤩
-
-
-# Demo
-Github Pages : https://saurabhnemade.github.io/will-you-be-my-valentine/
+ **If I find people selling this project, I will take action to prevent unauthorized use.**  
 
 
-# Description
-This is a fun project for valentines day to bring smile on face of your special person!!
 
-This project is inspired from
-https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5 & https://www.tiktok.com/@mewtru/video/7331131143112166698
+## How It Works 
 
-# How to start
-```
-npm install -g pnpm
-pnpm i
-pnpm run dev
-```
+This project consists of a simple webpage with a "Yes" and "No" button. When the user clicks the "No" button, the button text changes to a series of  messages, and the "Yes" button grows larger. If the user clicks the "Yes" button, they are redirected to a new page (`yes_page.html`).
 
-# Preview
+### Features:
+- **Interactive Buttons**: The "No" button cycles through , while the "Yes" button grows in size.
+- **Responsive Design**: The webpage is designed to work on all screen sizes.
 
-![image description](demo.gif)
+---
+
+## How to Use 
+
+1. **Download the Files**:
+   - Clone this repository or download the `index.html`, `styles.css`,`yes_style.css`,`yes_page.html` and `script.js` files.
+
+2. **Open the Project**:
+   - Open the `index.html` file in your web browser.
 
 
-# How to deploy it
-```
-pnpm run deploy
-```
+---
 
-Made with ❤️ in Berlin!
+## A Note on Code Usage 
+
+While I am happy to share this project, I encourage you to use it as inspiration.
+If you use this code as a base for your own project, please give credit where it's due. A simple shoutout or link back to this repository is appreciated!
+
+
+---
+
+## Code Overview 
+
+### Files:
+
+- `index.html`: The main HTML file that structures the webpage.
+- `styles.css`: The CSS file that styles the webpage.
+- `script.js`: The JavaScript file that handles the button interactions.
+- `yes_page.html`: The yes page that sturctures the webpage.
+- `yes_style.css`: The css file that styles the yes webpage.
+
+
+
+### Key Functions:
+
+- `handleNoClick()`: Changes the "No" button text and increases the size of the "Yes" button.
+- `handleYesClick()`: Redirects the user to `yes_page.html`.
+
+---
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Enjoy 💖
